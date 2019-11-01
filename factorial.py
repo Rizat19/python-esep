@@ -1,5 +1,6 @@
 f=1
-for i in range(10):
-    i+=1
-    f*=i
-    print('{} факториалы:'.format(i),f)
+n=int(input())
+while n>1:
+    f*=n
+    n-=1
+print(f)
